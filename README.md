@@ -18,6 +18,6 @@ In this project, you'll train an image classifier to recognize different species
 
 The project is broken down into multiple steps:
 
-Load the image dataset and create a pipeline.
-Build and Train an image classifier on this dataset.
-Use trained model to perform inference on flower images.
+- Load the image dataset and create a pipeline.
+- Build and Train an image classifier on this dataset.
+- Use trained model to perform inference on flower images.
