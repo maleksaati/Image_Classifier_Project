@@ -16,7 +16,7 @@ train_split = 60
 classes = {}
 
 
-def process_image(image): 
+def normalize(image): 
    
     image = tf.cast(image, tf.float32)
     image= tf.image.resize(image, (image_size, image_size))
@@ -28,7 +28,7 @@ def process_image(image):
 def predict(image_path, model, top_k=5):
     im = Image.open(image_path)
     test_image = np.asarray(im)
-    processed_test_image = process_image(test_image)
+    processed_test_image = normalize(test_image)
     final_img = np.expand_dims(processed_test_image, axis=0)
     
     preds = model.predict(final_img)
