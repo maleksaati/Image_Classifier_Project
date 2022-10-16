@@ -7,13 +7,13 @@ In this project, you'll train an image classifier to recognize different species
 <table>
   <tr>
     <td>cautleya_spicata</td>
-    <td>leaved_pocket_orchid</td>
+    <td>hard-leaved_pocket_orchid</td>
     <td>orange_dahlia</td>
   </tr>
   <tr>
     <td><img width="250" height="250" src='https://github.com/maleksaati/Image_Classifier_Project/blob/main/test_images/cautleya_spicata.jpg' width=500px></img>
 </td>
-    <td><img width="250" height="250" src='https://github.com/maleksaati/Image_Classifier_Project/blob/main/test_images/hard-leaved_pocket_orchid.jpg' width=500px>hard-
+    <td><img width="250" height="250" src='https://github.com/maleksaati/Image_Classifier_Project/blob/main/test_images/hard-leaved_pocket_orchid.jpg' width=500px>
 </img>
 </td>
     <td><img width="250" height="250" src='https://github.com/maleksaati/Image_Classifier_Project/blob/main/test_images/orange_dahlia.jpg' width=500px></img>
